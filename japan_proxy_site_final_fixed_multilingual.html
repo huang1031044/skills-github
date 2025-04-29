@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本代購 、包車旅遊 - 鳯梨好康報您</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #ffcbcb;
+            color: #333;
+            text-align: center;
+            padding: 20px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header h1, header h2 {
+            margin: 5px 0;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        header h2 {
+            font-size: 1.5rem;
+        }
+        nav {
+            background-color: #fff;
+            padding: 10px 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            transition: background-color 0.3s ease-in-out;
+        }
+        nav.sticky {
+            background-color: #f05a5a;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #555;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            color: #d9534f;
+        }
+        section {
+            padding: 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        section h2 {
+            color: #d9534f;
+            border-bottom: 2px solid #f7c8d0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #ffcbcb;
+            color: #333;
+            font-size: 0.9rem;
+        }
+        .cta {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #f05a5a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .cta:hover {
+            background-color: #d04949;
+        }
+        ol {
+            padding-left: 20px;
+        }
+        ol li {
+            margin: 10px 0;
+        }
+        #language-selector {
+            text-align: center;
+            margin: 10px 0;
+        }
+        #language-selector button {
+            margin: 5px;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            background-color: #f05a5a;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        #language-selector button:hover {
+            background-color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍍日本代購 - 🚌 旅遊包車🇯🇵各種保健品</h1>
+        <h2>💥鳯梨好康報您知💥</h2>
+    </header>
+    <div id="language-selector">
+        <button onclick="setLanguage('zh')">中文</button>
+        <button onclick="setLanguage('ja')">日本語</button>
+        <button onclick="setLanguage('en')">English</button>
+    </div>
+    <nav>
+        <a href="#about">關於我們</a>
+        <a href="#process">如何下單</a>
+        <a href="#contact">聯絡我們</a>
+    </nav>
+    <section id="about">
+        <h2>關於我們</h2>
+        <p class="lang" data-lang-zh="我們專注於提供日本商品代購服務和旅遊包車，包含最新好康、限定商品與稀有好物，致力於為您帶來最棒的購物體驗。"
+            data-lang-ja="日本の商品代理購入サービスと観光チャーターサービスを提供しています。最新のお得情報、限定商品、希少なグッズを含み、最高のショッピング体験をお届けします。"
+            data-lang-en="We specialize in providing Japanese product proxy services and travel charters, including the latest deals, exclusive items, and rare finds, delivering the best shopping experience.">
+            我們專注於提供日本商品代購服務和旅遊包車，包含最新好康、限定商品與稀有好物，致力於為您帶來最棒的購物體驗。
+        </p>
+    </section>
+    <section id="process">
+        <h2>如何下單</h2>
+        <p class="lang" data-lang-zh="簡單三步驟："
+            data-lang-ja="簡単な3つのステップ："
+            data-lang-en="Three simple steps:">
+            簡單三步驟：
+        </p>
+        <ol>
+            <li class="lang" data-lang-zh="🍍 加入我們的私 Line，獲得專屬密碼。"
+                data-lang-ja="🍍 私たちのLineに参加して、専用パスワードを取得します。"
+                data-lang-en="🍍 Join our private Line to receive an exclusive password.">
+                🍍 加入我們的私 Line，獲得專屬密碼。
+            </li>
+            <li class="lang" data-lang-zh="🤗 使用密碼加入群組。"
+                data-lang-ja="🤗 パスワードを使ってグループに参加します。"
+                data-lang-en="🤗 Use the password to join the group.">
+                🤗 使用密碼加入群組。
+            </li>
+            <li class="lang" data-lang-zh="💥 設定群組名稱，與 Line 名字一致。"
+                data-lang-ja="💥 グループ名をLineの名前と一致させます。"
+                data-lang-en="💥 Set the group name to match your Line name.">
+                💥 設定群組名稱，與 Line 名字一致。
+            </li>
+        </ol>
+        <p class="lang" data-lang-zh="⚠️ 通知到貨時，正確的名字可避免錯誤。"
+            data-lang-ja="⚠️ 配送通知の際に名前が正しいと誤解を防げます。"
+            data-lang-en="⚠️ A correct name avoids errors during delivery notifications.">
+            ⚠️ 通知到貨時，正確的名字可避免錯誤。
+        </p>
+        <p class="lang" data-lang-zh="確認價格後完成付款，我們將快速為您購買並配送！"
+            data-lang-ja="価格を確認後に支払いを完了すると、迅速に購入して配送いたします！"
+            data-lang-en="After confirming the price, complete the payment, and we will purchase and deliver promptly!">
+            確認價格後完成付款，我們將快速為您購買並配送！
+        </p>
+        <a class="cta" href="https://line.me/ti/p/u4A9wPxRTq" target="_blank">加入 LINE</a>
+    </section>
+    <section id="contact">
+        <h2>聯絡我們</h2>
+        <p class="lang" data-lang-zh="有任何問題或需要幫助，歡迎隨時聯絡我們！"
+            data-lang-ja="ご質問やサポートが必要な場合は、いつでもお気軽にご連絡ください！"
+            data-lang-en="If you have any questions or need assistance, feel free to contact us!">
+            有任何問題或需要幫助，歡迎隨時聯絡我們！
+        </p>
+        <a class="cta" href="https://line.me/ti/p/u4A9wPxRTq" target="_blank">加入 LINE</a>
+    </section>
+    <footer>
+        <p>© 2025 鳯梨好康報您. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // 滾動效果
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('sticky');
+            } else {
+                nav.classList.remove('sticky');
+            }
+        });
+
+        // 多語言切換
+        function setLanguage(lang) {
+            document.querySelectorAll('.lang').forEach(el => {
+                el.textContent = el.getAttribute(`data-lang-${lang}`);
+            });
+        }
+    </script>
+</body>
+</html>
